@@ -1,0 +1,10 @@
+<h3>User</h3>
+<div *ngIf="_invokeService.dataArray.length">
+    <div *ngFor="let item of _invokeService.dataArray; let i = index">
+        <li class="list-group-item" [ngStyle]="{color: i%2!=0? 'red':'green'}">{{item}}
+            <button type="button" class="btn btn-default btn-sm" (click)="Minus(item)">
+                <span class="glyphicon glyphicon-trash red"></span> 
+            </button>
+        </li>
+</div>
+</div>

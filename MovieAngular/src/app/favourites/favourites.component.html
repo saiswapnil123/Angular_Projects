@@ -1,0 +1,18 @@
+<h5>I am Movies.....</h5>
+<div class="one"> 
+    <div *ngFor="let item of title; let i = index" class="two">
+        <br>
+        <div class="card" style="width: 18rem;">
+            <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/{{item.backdrop_path}}" class="card-img-top" alt="No Image Found">
+            <div class="card-body">
+              <h4 class="card-text">{{item.name}}.</h4>
+              <p>{{i}}</p>
+            </div>
+        </div>
+        <div Id="display">
+            <!-- <button>Rate It</button> -->
+            <button btn btn-primary (click)="Remove(i)">Remove</button>
+        </div>
+    </div>
+</div>
+

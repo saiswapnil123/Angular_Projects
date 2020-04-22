@@ -1,0 +1,11 @@
+<h5>I am Movies.....</h5>
+  <div class="one"> 
+      <div *ngFor="let item of persons">
+          <div class="card" style="width: 18rem;">
+              <a routerLink="Details"><img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/{{item.profile_path}}" class="card-img-top" alt="No Image Found"></a>
+              <div class="card-body">
+                <p class="card-text">{{item.name}}.</p>
+              </div>
+          </div>
+      </div>
+  </div>

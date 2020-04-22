@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+}
+.list{
+    width:40%;
+    padding: 15px;
+}
+.form{
+    padding: 10px;
+    width:30%;
+}
+h4{
+    text-decoration: dashed;
+    color:indigo;
+}

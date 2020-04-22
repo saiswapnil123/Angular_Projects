@@ -1,0 +1,8 @@
+.red{
+    color:red;
+    text-decoration-color:red;
+}
+div button {
+    float: right;
+    border:none;
+}

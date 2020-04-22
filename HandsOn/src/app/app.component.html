@@ -1,0 +1,11 @@
+<h1> {{title}}</h1>
+
+<button [disabled] ="true">ClickMe</button>
+<br>
+<input type="text" value={{num}}>
+<ol *ngFor="let item of arr">
+  <li>
+    <app-child [item]="item" (onClicks)="onClicked()"></app-child>
+  </li>
+  
+</ol>

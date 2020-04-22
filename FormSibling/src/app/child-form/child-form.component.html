@@ -1,0 +1,14 @@
+<h4>Add User</h4>
+<form [formGroup]="signupfrm" (ngSubmit) = "onSubmit()" >
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input id="firstName" type="text" class="form-control" name="firstName" placeholder="firstName" formControlName="firstName">
+    </div>
+    <br>
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input id="lastName" type="text" class="form-control" name="lastName" placeholder="lastName" formControlName="lastName">
+    </div>
+    <br>
+    <button value="Submit" class="btn btn-primary">Default</button>
+</form>

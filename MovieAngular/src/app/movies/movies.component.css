@@ -1,0 +1,14 @@
+.one{
+  display:flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.two{
+  display: flex;
+}
+.display{
+  display:none;
+  margin-left: 25px;
+  width:40%;
+  height:auto;
+}
